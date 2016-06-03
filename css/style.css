@@ -1,15 +1,21 @@
 * { 
-    color: #000;
+    color: #5e5e5e;
 }
 
 .navbar { 
-    background: none;
+    background: #fff;
     border: none;
 }
 
 .background {
-    background-image: url('../polygon1.jpg');
+    background-image: url('../img/polygon2.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     height: 600px;
+    opacity: 0.8;
+}
+
+.section {
+    background-color: #eaf1f1;
+    padding: 4em 0 4em 0;
 }
