@@ -7,15 +7,64 @@
     border: none;
 }
 
-.background {
+.homeJumbo {
+    padding-bottom:0px;
+    margin-bottom:0px;
     background-image: url('../img/Polygon2.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     height: 600px;
     opacity: 0.8;
+    text-align: center;
+    color:#fff;
+    font-family:  Helvetica
 }
 
 .section {
     background-color: #eaf1f1;
     padding: 4em 0 4em 0;
+}
+
+.alternate {
+    background-color:#fff;
+}
+
+/*----------SECTION-INFO-----------------*/
+#languages {
+    text-align: center;
+    
+}
+#languages > h3 { padding-bottom: 20px; }
+#languages i { font-size: 100px; }
+
+#js {
+    background-color: #5e5e5e;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+#js > span {
+    font-size:50px;
+    font-family:sans-serif;
+    font-weight: bold;
+    color:#eaf1f1;
+    position: absolute;
+    right: 98px;
+    bottom: -10px;
+}
+
+#imageContainer {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+#angular {
+    background-image: url('../img/angular.png');
+    position: absolute;
+    top: 0;
+    left: 33.33333%;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
