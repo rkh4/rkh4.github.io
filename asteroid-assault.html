@@ -1,20 +1,16 @@
 <!doctype HTML>
 <html>
-<!-- Start of Body -->
 <head>
-    <title>Rhys Howard</title>    
+    <title>Asteroid Assault</title>
     
     <!-- Stylesheet Linking -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css">
     <script src="https://use.fontawesome.com/bc93916716.js"></script>
+    
 </head>
-<!-- End of Header -->
-    
-<!-- Start of Body -->
 <body>
-    
-    <!-- Navbar at the top of the page -->
+     <!-- Navbar at the top of the page -->
     <div class="navbar navbar-default navbar-fixed-top navbar-transparent">
         <div class="container">
             <div class="navbar-header">
@@ -37,39 +33,16 @@
         </div>
     </div>
     
-    <div class="jumbotron homeJumbo">
+    <div class="jumbotron homeJumbo" style="background-image: url('../img/Polygon1.jpg');">
         
-    </div>
-        
-    <!-- First section on the page-->
-    <div class="section alternate">
-        <div class="container" id="intro">
-            Lorem ipsum dolor sit amet, graeci nostrum accusata pro ei. Atqui causae vix ut, nec saepe causae aeterno ei. His omnesque delicata et, docendi periculis persequeris duo et, diam aeterno tritani mel in. Te eros phaedrum eum.
-        </div>
     </div>
     
-    <div class="section">
-        <div class="container" id="languages">
-            <h3>Language Experience</h3>
-            <div class="col-sm-3">
-                <i class="fa fa-html5"></i>
-                <h4>HTML 5</h4>
-            </div>
-            <div class="col-sm-3">
-                <i class="fa fa-css3"></i>
-                <h4>CSS 3</h4>
-            </div>
-            <div class="col-sm-3">
-                <div id="js"><span>JS</span></div>
-                
-            </div>
-                
-            <div class="col-sm-3">
-                <div id="imageContainer"><a id="angular"></a></div>
-            </div>
-        </div>
+    <!-- AA Game -->
+    <div>
+        <canvas width="1200" height="600" id="game"></canvas>
+        <script src="/asteroid-assault.js"></script>
     </div>
-        
+    
+    
 </body>
-<!-- End of Body -->
 </html>
