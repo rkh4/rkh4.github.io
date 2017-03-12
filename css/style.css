@@ -1,5 +1,6 @@
 * { 
     color: #5e5e5e;
+    font-family: 'Exo 2';
 }
 
 .navbar { 
@@ -17,7 +18,28 @@
     opacity: 0.8;
     text-align: center;
     color:#fff;
-    font-family:  Helvetica
+    
+}
+
+#image {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    margin-top: 90px;
+    border-radius: 125px;
+    background-image: url("../img/rhys_howard.jpg");
+}
+
+.homeJumbo .h1 {
+    margin-top: 30px;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555;
+}
+
+#intro{
+    margin-top:30px;
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 100;
 }
 
 .section {  
@@ -30,6 +52,14 @@
 }
 
 /*----------SECTION-INFO-----------------*/
+.graph {
+    margin-top: 50px;
+    border-left: 1px black solid;
+    border-bottom: 1px black solid;
+    height: 300px;
+    margin-left: 100px;
+}
+
 #languages {
     text-align: center;
     
